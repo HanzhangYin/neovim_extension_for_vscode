@@ -1,0 +1,9 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "command": "vscode-neovim.send",
+        "key": "j k",
+        "when": "editorTextFocus && neovim.mode == insert",
+        "args": "<Esc>"
+    }
+]
